@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 Route::get('/series', 'seriesController@index');
 Route::get('/series/criar', 'seriesController@create');
+Route::post('/series/criar', 'seriesController@store');
 
