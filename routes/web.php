@@ -15,7 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/series', function () {
-    return view('welcome');
-});
+Route::get('/series', 'seriesController@index');
 
