@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75edc38a-2d83-420f-93f7-88fe66e7792a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/controle-series.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/controle-series.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +14,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -107,6 +111,9 @@
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
     </include_path>
   </component>
   <component name="ProjectId" id="1h7I2risJ4KxXAEUeSOqOCKdLvK" />
@@ -151,7 +158,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599355499719</updated>
-      <workItem from="1599355502714" duration="10474000" />
+      <workItem from="1599355502714" duration="12727000" />
+      <workItem from="1599417317664" duration="1193000" />
     </task>
     <task id="LOCAL-00001" summary="MVC - View Aula 3 (video 1)">
       <created>1599404508283</created>
@@ -181,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599410790959</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="MVC - Model Aula 4 (video 1)">
+      <created>1599412960865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599412960865</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +207,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -203,6 +220,7 @@
     <MESSAGE value="MVC - View Aula 3 (video 2)" />
     <MESSAGE value="MVC - View Aula 3 (video 3)" />
     <MESSAGE value="MVC - View Aula 3 (video 4)" />
-    <option name="LAST_COMMIT_MESSAGE" value="MVC - View Aula 3 (video 4)" />
+    <MESSAGE value="MVC - Model Aula 4 (video 1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="MVC - Model Aula 4 (video 1)" />
   </component>
 </project>
