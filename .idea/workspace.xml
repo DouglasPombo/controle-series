@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75edc38a-2d83-420f-93f7-88fe66e7792a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/series/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/seriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/seriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/series/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/series/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/series/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/series/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599355499719</updated>
-      <workItem from="1599355502714" duration="7510000" />
+      <workItem from="1599355502714" duration="8828000" />
     </task>
     <task id="LOCAL-00001" summary="MVC - View Aula 3 (video 1)">
       <created>1599404508283</created>
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599405021019</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="MVC - View Aula 3 (video 3)">
+      <created>1599406198870</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599406198870</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +197,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MVC - View Aula 3 (video 1)" />
     <MESSAGE value="MVC - View Aula 3 (video 2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="MVC - View Aula 3 (video 2)" />
+    <MESSAGE value="MVC - View Aula 3 (video 3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="MVC - View Aula 3 (video 3)" />
   </component>
 </project>
