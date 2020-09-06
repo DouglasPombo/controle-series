@@ -9,20 +9,18 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
-        <div class="jumbotron">
-            <h1>Séries</h1>
-        </div>
-
-        <a href="/series/criar" class="btn btn-dark mb-2">Adicionar</a>
-        <ul class='list-group'>
-            <?php
-                foreach ($series as $serie){
-                    echo '<li class="list-group-item">'.$serie.'</li>';
-                }
-            ?>
-        </ul>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Adicionar Série</h1>
     </div>
+
+    <form method="post">
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" name="nome" id="nome">
+        </div>
+        <button class="btn btn-primary">Adicionar</button>
+    </form>
 
 </body>
 </html>
