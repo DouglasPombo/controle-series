@@ -10,12 +10,8 @@ class seriesController extends Controller
 {
     public function index(Request $request)
     {
+        $series = Serie::all();
 
-        $series = [
-            'La casa de papel',
-            'Mr robot',
-            'Lost'
-        ];
 
         return view('series.index', compact('series'));
     }
@@ -29,9 +25,9 @@ class seriesController extends Controller
     public function store(Request $request)
     {
         $nome = $request->nome;
-        $serie = new Serie();
-        $serie->nome = $nome;
-        $serie->save();
+        Serie::create([
+            'nome' => $nome
+        ]);
 
     }
 
