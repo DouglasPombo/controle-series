@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75edc38a-2d83-420f-93f7-88fe66e7792a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/seriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/seriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/series/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/series/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599355499719</updated>
       <workItem from="1599355502714" duration="12727000" />
-      <workItem from="1599417317664" duration="9697000" />
+      <workItem from="1599417317664" duration="10692000" />
     </task>
     <task id="LOCAL-00001" summary="MVC - View Aula 3 (video 1)">
       <created>1599404508283</created>
@@ -238,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599437064923</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Lapidando a aplicação Aula 5 (video 4)">
+      <created>1599438458788</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599438458788</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +272,7 @@
     <MESSAGE value="MVC - Model Aula 4 (video 5)" />
     <MESSAGE value="MVC - Model Aula 4 (video 6)" />
     <MESSAGE value="Lapidando a aplicação Aula 5 (video 3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lapidando a aplicação Aula 5 (video 3)" />
+    <MESSAGE value="Lapidando a aplicação Aula 5 (video 4)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lapidando a aplicação Aula 5 (video 4)" />
   </component>
 </project>
