@@ -2,6 +2,7 @@
 
 
 namespace App\Http\Controllers;
+use App\Http\Requests\SeriesFormRequest;
 use App\Serie;
 use illuminate\http\Request;
 
@@ -24,11 +25,8 @@ class seriesController extends Controller
 
     }
 
-    public function store(Request $request)
+    public function store(SeriesFormRequest $request)
     {
-        $request->validate([
-            'nome' => 'required|min:3'
-        ]);
 
         $serie = Serie::create($request->all());
         $request->session()->flash('mensagem',"Série {$serie->id} criada com sucesso {$serie->nome}");
