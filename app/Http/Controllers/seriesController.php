@@ -4,6 +4,7 @@
 namespace App\Http\Controllers;
 use App\Http\Requests\SeriesFormRequest;
 use App\Serie;
+use App\Services\CriadorDeSerie;
 use illuminate\http\Request;
 
 
@@ -24,22 +25,9 @@ class seriesController extends Controller
 
     }
 
-    public function store(SeriesFormRequest $request)
+    public function store(SeriesFormRequest $request, CriadorDeSerie $criadorDeSerie)
     {
-        $serie = Serie::create(['nome' => $request->nome]);
-
-        dd($serie);
-        $qtdTemporadas = $request->qtd_temporadas;
-
-
-        for($i=1; $i <= $qtdTemporadas; $i++){
-            $temporada = $serie->temporadas()->create(['numero' => $i]);
-
-
-            for($j=1; $j <= $request->ep_por_temporada; $j++){
-                $temporada->episodios()->create(['numero' => $j]);
-            }
-        }
+        $serie = $criadorDeSerie->criarSerie();
         $request->session()->flash('mensagem',"Série {$serie->id} criada com sucesso {$serie->nome}");
 
         return redirect()->route('listar_series');
