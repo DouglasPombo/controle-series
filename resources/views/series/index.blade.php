@@ -22,7 +22,7 @@
                             <input type="text" class="form-control" value="{{ $serie->nome }}">
                             <div class="input-group-append">
                                 <button class="btn btn-primary" onclick="editarSerie({{ $serie->id }})">
-                                    <i class="fas fa-check"></i>
+                                    <i  class="fas fa-check"></i>
                                 </button>
                                 @csrf
                             </div>
@@ -60,6 +60,13 @@
         inputSerie.removeAttribute('hidden');
         nomeSerie.hidden = true;
 
+    }
+
+    function editarSerie(serieId){
+
+        const nome = document.querySelector('#input-nome-serie-'+serieId+' > input').value;
+        const url = '/series/'+serieId+'/editaNome';
+        
     }
 </script>
 @endsection

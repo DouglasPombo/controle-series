@@ -45,4 +45,10 @@ class seriesController extends Controller
         return redirect()->route('listar_series');
     }
 
+    public function edit(Request $request)
+    {
+
+
+    }
+
 }

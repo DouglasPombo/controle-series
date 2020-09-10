@@ -24,10 +24,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8879527-ef5f-489c-b0ce-935a9efaa9a1" name="Default Changelist" comment="checkpoint">
+    <list default="true" id="b8879527-ef5f-489c-b0ce-935a9efaa9a1" name="Default Changelist" comment="Usando serviços para exclusão Aula 04 (video 1)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/seriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/seriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/CriadorDeSerie.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CriadorDeSerie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/series/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/series/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599654250864</updated>
       <workItem from="1599654252041" duration="15619000" />
-      <workItem from="1599748126900" duration="7745000" />
+      <workItem from="1599748126900" duration="17442000" />
     </task>
     <task id="LOCAL-00001" summary="Novo controller e view Aula 02 (video 1)">
       <created>1599680056007</created>
@@ -190,7 +191,35 @@
       <option name="project" value="LOCAL" />
       <updated>1599685928103</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Usando serviços para exclusão Aula 03 (video 2)">
+      <created>1599759738780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599759738780</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Usando serviços para exclusão Aula 03 (video 3)">
+      <created>1599762464854</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599762464854</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Usando serviços para exclusão Aula 03 (video 4)">
+      <created>1599766246374</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599766246374</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Usando serviços para exclusão Aula 04 (video 1)">
+      <created>1599769287309</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599769287309</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,25 +241,33 @@
     <MESSAGE value="Novo controller e view Aula 02 (video 1)" />
     <MESSAGE value="Novo controller e view Aula 02 (video 2)" />
     <MESSAGE value="checkpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="checkpoint" />
+    <MESSAGE value="Usando serviços para exclusão Aula 03 (video 2)" />
+    <MESSAGE value="Usando serviços para exclusão Aula 03 (video 3)" />
+    <MESSAGE value="Usando serviços para exclusão Aula 03 (video 4)" />
+    <MESSAGE value="Usando serviços para exclusão Aula 04 (video 1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Usando serviços para exclusão Aula 04 (video 1)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599656067348">
       <screen x="63" y="0" width="1857" height="1080" />
     </state>
     <state x="740" y="330" key="#com.intellij.fileTypes.FileTypeChooser/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599656067348" />
-    <state x="721" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599683616902">
+    <state x="721" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599759933864">
       <screen x="63" y="0" width="1857" height="1080" />
     </state>
-    <state x="721" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599683616902" />
-    <state x="778" y="247" key="NewPhpClassDialog" timestamp="1599683562223">
+    <state x="721" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599759933864" />
+    <state x="155" y="92" width="1673" height="896" key="DiffContextDialog" timestamp="1599769253082">
       <screen x="63" y="0" width="1857" height="1080" />
     </state>
-    <state x="778" y="247" key="NewPhpClassDialog/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599683562223" />
-    <state x="536" y="89" key="Vcs.Push.Dialog.v2" timestamp="1599685971832">
+    <state x="155" y="92" width="1673" height="896" key="DiffContextDialog/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599769253082" />
+    <state x="778" y="247" key="NewPhpClassDialog" timestamp="1599759827145">
       <screen x="63" y="0" width="1857" height="1080" />
     </state>
-    <state x="536" y="89" key="Vcs.Push.Dialog.v2/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599685971832" />
+    <state x="778" y="247" key="NewPhpClassDialog/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599759827145" />
+    <state x="536" y="89" key="Vcs.Push.Dialog.v2" timestamp="1599769290130">
+      <screen x="63" y="0" width="1857" height="1080" />
+    </state>
+    <state x="536" y="89" key="Vcs.Push.Dialog.v2/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599769290130" />
     <state x="633" y="266" width="700" height="530" key="recent.locations.popup" timestamp="1599757648342">
       <screen x="63" y="0" width="1857" height="1080" />
     </state>
