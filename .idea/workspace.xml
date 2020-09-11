@@ -37,7 +37,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,6 +138,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hH3a51LcnLlBNcT9Zlkq6j0OeC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -153,13 +156,28 @@
       <command value="open api-cadastro-op" />
     </option>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b8879527-ef5f-489c-b0ce-935a9efaa9a1" name="Default Changelist" comment="" />
@@ -230,12 +248,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Novo controller e view Aula 02 (video 1)" />
@@ -248,37 +267,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="Usando serviços para exclusão Aula 04 (video 1)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599656067348">
-      <screen x="63" y="0" width="1857" height="1080" />
-    </state>
-    <state x="740" y="330" key="#com.intellij.fileTypes.FileTypeChooser/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599656067348" />
-    <state x="721" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599759933864">
-      <screen x="63" y="0" width="1857" height="1080" />
-    </state>
-    <state x="721" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599759933864" />
-    <state x="155" y="92" width="1673" height="896" key="DiffContextDialog" timestamp="1599769253082">
-      <screen x="63" y="0" width="1857" height="1080" />
-    </state>
-    <state x="155" y="92" width="1673" height="896" key="DiffContextDialog/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599769253082" />
-    <state x="778" y="247" key="NewPhpClassDialog" timestamp="1599759827145">
-      <screen x="63" y="0" width="1857" height="1080" />
-    </state>
-    <state x="778" y="247" key="NewPhpClassDialog/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599759827145" />
-    <state x="536" y="89" key="Vcs.Push.Dialog.v2" timestamp="1599769290130">
-      <screen x="63" y="0" width="1857" height="1080" />
-    </state>
-    <state x="536" y="89" key="Vcs.Push.Dialog.v2/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599769290130" />
-    <state x="633" y="266" width="700" height="530" key="recent.locations.popup" timestamp="1599757648342">
-      <screen x="63" y="0" width="1857" height="1080" />
-    </state>
-    <state x="633" y="266" width="700" height="530" key="recent.locations.popup/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599757648342" />
-    <state x="648" y="250" width="672" height="677" key="run.anything.popup" timestamp="1599757759014">
-      <screen x="63" y="0" width="1857" height="1080" />
-    </state>
-    <state x="648" y="250" width="672" height="677" key="run.anything.popup/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599757759014" />
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1599757694824">
-      <screen x="63" y="0" width="1857" height="1080" />
-    </state>
-    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" timestamp="1599757694824" />
+    <state x="740" y="330" key="#com.intellij.fileTypes.FileTypeChooser" />
+    <state x="740" y="330" key="#com.intellij.fileTypes.FileTypeChooser/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" />
+    <state x="721" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" />
+    <state x="721" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" />
+    <state x="155" y="92" width="1673" height="896" key="DiffContextDialog" />
+    <state x="155" y="92" width="1673" height="896" key="DiffContextDialog/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" />
+    <state x="778" y="247" key="NewPhpClassDialog" />
+    <state x="778" y="247" key="NewPhpClassDialog/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" />
+    <state x="536" y="89" key="Vcs.Push.Dialog.v2" />
+    <state x="536" y="89" key="Vcs.Push.Dialog.v2/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" />
+    <state x="633" y="266" width="700" height="530" key="recent.locations.popup" />
+    <state x="633" y="266" width="700" height="530" key="recent.locations.popup/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" />
+    <state x="648" y="250" width="672" height="677" key="run.anything.popup" />
+    <state x="648" y="250" width="672" height="677" key="run.anything.popup/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup" />
+    <state x="654" y="235" width="672" height="678" key="search.everywhere.popup/-1870.0.1486.864/63.0.1857.1080@63.0.1857.1080" />
   </component>
 </project>
