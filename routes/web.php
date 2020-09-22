@@ -11,9 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::get('/series', 'seriesController@index')->name('listar_series');
 Route::get('/series/criar', 'seriesController@create')->name('criar_serie');
@@ -23,3 +20,4 @@ Route::delete('/series/{id}', 'seriesController@destroy');
 Route::get('/series/editar', 'seriesController@edit');
 
 
+Route::get('series/{serieId}/temporadas', 'TemporadasController@index');

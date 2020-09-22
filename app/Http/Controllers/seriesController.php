@@ -25,7 +25,6 @@ class seriesController extends Controller
     public function create()
     {
         return view('series.create');
-
     }
 
     public function store(SeriesFormRequest $request, CriadorDeSerie $criadorDeSerie)
@@ -34,7 +33,6 @@ class seriesController extends Controller
         $request->session()->flash('mensagem',"Série {$serie->id} criada com sucesso {$serie->nome}");
 
         return redirect()->route('listar_series');
-
     }
 
     public function destroy(Request $request, RemovedorDeSerie $nomeSerie)
@@ -45,13 +43,12 @@ class seriesController extends Controller
         return redirect()->route('listar_series');
     }
 
-    public function editaNome(int $id)
+    public function editaNome(Request $request , int $id)
     {
         $novoNome = $request->nome;
         $serie = Serie::find($id);
         $serie->nome = $novoNome;
         $serie->save();
-
 
     }
 

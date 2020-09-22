@@ -71,6 +71,8 @@
         formData.append('nome', nome);
         formData.append('_token', token);
 
+        console.log(formData);
+
         fetch(url, {
             body: formData,
             method: 'POST'
