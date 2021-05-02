@@ -11,11 +11,13 @@ use illuminate\http\Request;
 class EpisodiosController extends Controller
 {
 
-    public function index(Temporada $temporada)
+    public function index(Request $request, Temporada $temporada)
     {
         $episodios = $temporada->episodios;
         $temporadaId = $temporada->id;
-        return view('episodios.index', compact('episodios', 'temporadaId'));
+        $mensagem = $request->session()->get('mensagem') ?? '';
+
+        return view('episodios.index', compact('episodios', 'temporadaId', 'mensagem'));
     }
 
     /**
@@ -31,6 +33,9 @@ class EpisodiosController extends Controller
         });
 
         $temporada->push();
+        $request->session()->flash('mensagem', 'Episódios marcados como assistidos');
+
+        return redirect()->back();
     }
 
 }
