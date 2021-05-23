@@ -10,7 +10,8 @@ class TemporadasController extends Controller
 
     public function index(int $serieId)
     {
-        $serie = Serie::find($serieId)->nome;
+        $serie = Serie::find($serieId);
+//        dd($serie);
         $temporadas = Serie::find($serieId)->temporadas;
 
         return view('temporadas.index', compact('temporadas', 'serie'));
